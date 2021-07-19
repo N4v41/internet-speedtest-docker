@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM arm64v8/python:3-alpine
 MAINTAINER Pedro César de Azevedo <pedrocesar.ti@gmail.com>
 
 RUN mkdir -p /app/speedtest/ &&\
