@@ -1,4 +1,4 @@
-FROM arm64v8/grafana/grafana
+FROM grafana/grafana
 MAINTAINER Pedro César de Azevedo <pedrocesar.ti@gmail.com>
 
 COPY conf/grafana.db /var/lib/grafana/grafana.db
